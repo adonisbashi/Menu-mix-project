@@ -40,6 +40,35 @@ def parse_qty(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+def parse_money_to_cents(df: pd.DataFrame, cols=("gross_cents", "net_cents")) -> pd.DataFrame:
+    for col in cols:
+        s = df[col].astype(str).str.strip()
+
+        # (123.45) -> -123.45
+        s = s.replace(r"\(([^)]+)\)", r"-\1", regex=True)
+
+        # extract first number like -123.45 (ignores words like 'tax:' etc.)
+        s = s.str.extract(r"(-?\d+(?:\.\d{1,2})?)", expand=False)
+
+        # dollars -> cents as float, then ROUND to remove float residue
+        s = pd.to_numeric(s, errors="coerce")
+        s = (s * 100).round(0)   # <- critical
+
+        # swap NaN -> pd.NA, then cast to Pandas' nullable Int64
+        s = s.where(s.notna(), pd.NA).astype("Int64")
+
+        df[col] = s
+    return df
+
+
+
+
+# def parse_sales_pct(df: pd.DataFrame) -> pd.DataFrame:
+#     b 
+
+# def drop_non_item_rows(df: pd.DataFrame) -> pd.DataFrame:
+#     b
+
 def main():
     input_path = Path("data/raw/menu_mix_july.csv")
     output_path = Path("data/processed/normalized_sample.csv")
@@ -54,6 +83,8 @@ def main():
 
     df = parse_qty(df)
 
+    df = parse_money_to_cents(df)
+
     print("After rename:"), list(df.columns)
     print(df.head(20))
 
@@ -61,6 +92,7 @@ def main():
     df.head(20).to_csv(output_path, index=False)
 
     # df.to_csv("debug_output.csv", index=False)
+
 
 if __name__ == "__main__":
     main()
