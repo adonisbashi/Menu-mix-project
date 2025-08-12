@@ -1,0 +1,81 @@
+MAIN():
+  input_path  ← "data/raw/<your_export>.csv"
+  output_path ← "data/processed/normalized_sample.csv"
+
+  # 1) Load raw
+  df_raw ← read_csv(input_path, encoding="utf-8-sig")
+========================
+
+  # 2) Validate headers exist
+  required_cols ← ["PLU", "Item Name", "Qty", "Total $", "Net $", "Sales %"]
+  assert all col in df_raw.columns for col in required_cols
+===============================
+
+  # 3) Rename to canonical
+  rename_map ← {
+    "PLU": "plu",
+    "Item Name": "item_name",
+    "Qty": "qty",
+    "Total $": "gross_cents",
+    "Net $": "net_cents",
+    "Sales %": "sales_pct"
+  }
+  df ← rename_columns(df_raw, rename_map)
+
+  # 4) Text cleanup for object columns
+  for each col in [plu, item_name]:
+    df[col] ← strip_whitespace(df[col])
+    df[col] ← collapse_internal_spaces(df[col])
+    df[col] ← remove_non_printing(df[col])
+  # Ensure PLU stays text
+  df["plu"] ← as_string(df["plu"])
+
+  # 5) Quantity → int
+  #   - Create helper flag 'is_numeric_qty'
+  df["is_numeric_qty"] ← is_numeric(df["qty"])
+  df["qty"] ← to_int_or_null(df["qty"])
+
+  # 6) Money parsing to integer cents
+  for each money_col in [gross_cents, net_cents]:
+    df[money_col] ← remove_currency_symbols(df[money_col])   # drop $, commas
+    df[money_col] ← to_decimal_dollars(df[money_col])        # Decimal for safety
+    df[money_col] ← round_half_up(df[money_col] * 100)
+    df[money_col] ← to_int(df[money_col])
+
+  # 7) Sales % → numeric
+  df["sales_pct"] ← remove_percent_symbol(df["sales_pct"])
+  # choose scale once: "fraction" or "percent"
+  if percent_scale == "fraction":
+    df["sales_pct"] ← to_float(df["sales_pct"]) / 100
+  else:
+    df["sales_pct"] ← to_float(df["sales_pct"])
+
+  # 8) Identify non-item rows (headers/subtotals)
+  df["looks_like_header"] ← (
+       (is_null(df["qty"]) OR NOT df["is_numeric_qty"])
+    OR (is_null(df["gross_cents"]) AND is_null(df["net_cents"]))
+    OR (is_null(df["plu"]) AND item_name_in_known_headers(df["item_name"]))
+  )
+
+  # 9) Filter to sellable lines only (for normalized sample)
+  df_items ← df WHERE looks_like_header == False
+
+  # 10) Sanity checks
+  assert all df_items["gross_cents"] >= df_items["net_cents"] (where both present)
+  assert price_per_unit_in_reasonable_range(df_items)         # net_cents/qty where qty>0
+  # Optional: drop rows where qty == 0 and money == 0 (true zeros)
+
+  # 11) Canonical column order
+  ordered_cols ← ["plu","item_name","qty","gross_cents","net_cents","sales_pct"]
+  df_items ← df_items[ordered_cols]
+
+  # 12) Write a sample for review (~200 rows or full if smaller)
+  sample ← head(df_items, 200)
+  ensure_dir_exists("data/processed")
+  write_csv(sample, output_path, index=False)
+
+  # 13) Console summary
+  print "Loaded:", rowcount(df_raw), "rows from", input_path
+  print "Kept:", rowcount(df_items), "item rows; Dropped:", rowcount(df_raw)-rowcount(df_items)
+  print "Preview:"
+  print head(sample, 10)
