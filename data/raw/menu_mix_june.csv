@@ -1,0 +1,406 @@
+PLU,Item Name,Qty,Total $,Net $,Sales %
+Store: Farmington - 12 Mile,,7299,"$34,023.80","$32,584.07",100%
+Report Group: AppetizerMods,,30,$21.35,$21.35,0.07%
+,Lemon Pepper,1,1.49,1.49,0.00%
+,Cajun Seasoning,4,3.96,3.96,0.01%
+,Pizza Sauce,10,0,0,0.00%
+,BBQ Sauce,1,1.49,1.49,0.00%
+,Shredded Cheese,2,3.98,3.98,0.01%
+,Ranch,12,10.43,10.43,0.03%
+,,,,,
+,,,,,
+Report Group: Appetizers,,64,$404.16,$404.16,1.24%
+,Small BBQ Fries,1,3.99,3.99,0.01%
+,Onion Rings,5,34.95,34.95,0.11%
+,Lemon Pepper Chick Wedges,1,9.99,9.99,0.03%
+,Small Fries,9,26.91,26.91,0.08%
+,Potato Wedges,4,23.96,23.96,0.07%
+,Large Fries,20,121.6,121.6,0.37%
+,Mozzarella Cheese Sticks,17,118.83,118.83,0.36%
+,Buffalo Chicken Fries,4,39.96,39.96,0.12%
+,Loaded Bacon Wedges,1,9.99,9.99,0.03%
+,Large BBQ Fries,2,13.98,13.98,0.04%
+,,,,,
+,,,,,
+Report Group: Beverage,,219,$710.78,$709.65,2.18%
+,Water,3,4.5,4.5,0.01%
+,Grape Crush,4,15.44,15.44,0.05%
+,Orange Crush,14,47.06,46.68,0.14%
+,Pink Lemonade,7,26.53,26.15,0.08%
+,Cherry Pepsi,23,84.31,84.31,0.26%
+,Diet Pepsi,12,37.48,37.48,0.12%
+,Starry,7,22.53,22.53,0.07%
+,Mountain Dew,11,39.69,39.69,0.12%
+,Pepsi,138,433.24,432.87,1.33%
+,,,,,
+,,,,,
+Report Group: Bread,,246,"$2,233.14","$2,230.64",6.85%
+,Large Paparoni Bread,33,369.27,369.27,1.13%
+,Large Cheesy Bread,97,981.03,978.53,3.00%
+,Small Paparoni Bread,12,95.88,95.88,0.29%
+,Cinna Bread,6,47.94,47.94,0.15%
+,Small Cheesy Bread,53,374.67,374.67,1.15%
+,Papas Bread Stix,45,364.35,364.35,1.12%
+,,,,,
+,,,,,
+Report Group: BreadMods,,287,$90.31,$90.31,0.28%
+,Feta Cheese,1,2.99,2.99,0.01%
+,Mild Peppers,1,1.99,1.99,0.01%
+,Italian Sausage,1,1.99,1.99,0.01%
+,Oregano,4,5.96,5.96,0.02%
+,Mozzarella Cheese,1,0,0,0.00%
+,Garlic Cream Cheese,4,9.16,9.16,0.03%
+,Black Olives,1,1.99,1.99,0.01%
+,Icing,1,1.99,1.99,0.01%
+,Pineapple,1,1.99,1.99,0.01%
+,Garlic Butter Parmesan,2,1,1,0.00%
+,Pizza Sauce,156,17.15,17.15,0.05%
+,Ranch,88,29.07,29.07,0.09%
+,Red Onion,2,3.98,3.98,0.01%
+,No Sauce,18,0,0,0.00%
+,Bacon,3,6.57,6.57,0.02%
+,Pepperoni,1,1.99,1.99,0.01%
+,Green Peppers,2,2.49,2.49,0.01%
+,,,,,
+,,,,,
+Report Group: BurgerMods,,9,$7.96,$7.96,0.02%
+,Fries,4,7.96,7.96,0.02%
+,No Fries,5,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Burgers,,9,$98.91,$98.91,0.3%
+,Cheeseburger,9,98.91,98.91,0.30%
+,,,,,
+,,,,,
+Report Group: CalzoneMods,,117,$102.52,$48.78,0.15%
+,Fries,33,65.67,13.93,0.04%
+,Cajun Fries,1,3.99,3.99,0.01%
+,BBQ Fries,1,3.99,3.99,0.01%
+,No Fries,21,0,0,0.00%
+,Salami,1,0,0,0.00%
+,Mild Peppers,1,0,0,0.00%
+,Italian Sausage,6,1.99,0.99,0.00%
+,Mushroom,2,3.98,3.98,0.01%
+,Jalapeno,4,3.98,3.48,0.01%
+,Tomato,1,0,0,0.00%
+,Mozzarella Cheese,1,1.99,1.99,0.01%
+,Italian Dressing,1,1.49,1.49,0.00%
+,Pineapple,1,0,0,0.00%
+,Hamburger,4,1.99,1.99,0.01%
+,Red Onion,3,1.99,1.99,0.01%
+,Steak,3,8.97,8.97,0.03%
+,Bacon,9,0,0,0.00%
+,Pepperoni,16,0,0,0.00%
+,Green Peppers,5,0.5,0,0.00%
+,Turkey,3,1.99,1.99,0.01%
+,,,,,
+,,,,,
+Report Group: Calzones,,67,$641.44,$627.44,1.93%
+,Italian ,5,0,0,0.00%
+,Turkey Club ,1,0,0,0.00%
+,Steak and Cheese,5,0,0,0.00%
+,Steak and Cheese Calzone,17,203.83,194.83,0.60%
+,Turkey Club Calzone,3,35.97,33.97,0.10%
+,Italian Calzone,10,109.9,109.9,0.34%
+,Pizza Calzone,18,197.82,197.82,0.61%
+,Grilled Chicken Calzone,6,71.94,68.94,0.21%
+,Turkey Calzone,2,21.98,21.98,0.07%
+,,,,,
+,,,,,
+Report Group: Catering,,80,"$1,550.20","$1,545.20",4.74%
+,Full Tray Breadsticks,9,179.91,179.91,0.55%
+,Half Tray Mostaccioli,2,59.98,59.98,0.18%
+,Full Tray French Fries,1,29.99,29.99,0.09%
+,Half Tray Salads,4,119.96,119.96,0.37%
+,Half Tray French Fries,1,15.99,15.99,0.05%
+,Full Tray Mostaccioli,3,164.97,164.97,0.51%
+,Half Tray Breadsticks,3,29.97,29.97,0.09%
+,Full Tray Salads,7,349.93,344.93,1.06%
+,Wings By The Pound,20,239.8,239.8,0.74%
+,Large Catering Pizza,30,359.7,359.7,1.10%
+,,,,,
+,,,,,
+Report Group: CateringMods,,71,$13.89,$13.74,0.04%
+,Round,25,0,0,0.00%
+,Greek Salad,2,0,0,0.00%
+,Antipasto Salad,2,0,0,0.00%
+,Tossed Salad,7,0,0,0.00%
+,Square,5,0,0,0.00%
+,Greek Dressing,2,0,0,0.00%
+,No Topping,1,0,0,0.00%
+,Italian Sausage,3,0,0,0.00%
+,Italian Dressing,7,1.49,1.34,0.00%
+,Plain,1,0,0,0.00%
+,Butter Garlic Parmesan,6,7.92,7.92,0.02%
+,Pizza Sauce,1,2.99,2.99,0.01%
+,Ranch,4,1.49,1.49,0.00%
+,No Sauce,1,0,0,0.00%
+,Pepperoni,4,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Coupons,,611,$616.04,$616.04,1.89%
+,CC SURCHARGE,611,616.04,616.04,1.89%
+,,,,,
+,,,,,
+Report Group: DessertMods,,8,$0.00,$0.00,0%
+,Strawberry Crunch,8,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Desserts,,55,$342.05,$342.05,1.05%
+,Strawberry Shortcake,11,65.89,65.89,0.20%
+,Luckis Cheesecake,8,47.92,47.92,0.15%
+,Papas Brownie,4,27.96,27.96,0.09%
+,Papas Big Cookie,5,34.95,34.95,0.11%
+,Chocolate Cake,27,165.33,165.33,0.51%
+,,,,,
+,,,,,
+Report Group: Lunch,,53,$419.58,$419.58,1.29%
+,Spicy Chicken Sandwich,2,0,0,0.00%
+,Corned Beef Sand,9,0,0,0.00%
+,Tossed Salad Combo,2,19.98,19.98,0.06%
+,Chicken Tenders and Fries,1,9.99,9.99,0.03%
+,Pizza Calzone Combo,11,109.89,109.89,0.34%
+,5pc Boneless and Fries,1,9.99,9.99,0.03%
+,Sm Round 2 Topping Pizza,13,129.87,129.87,0.40%
+,Spicy Chicken and Fries,2,19.98,19.98,0.06%
+,5pc Wing Dings and Fries,3,29.97,29.97,0.09%
+,Corned Beef and Fries,9,89.91,89.91,0.28%
+,,,,,
+,,,,,
+Report Group: LunchMods,,92,$5.97,$5.97,0.02%
+,Diet Pepsi,1,0,0,0.00%
+,Water,6,0,0,0.00%
+,Tossed Salad,2,0,0,0.00%
+,Starry,6,0,0,0.00%
+,Pepsi,29,0,0,0.00%
+,Ranch Dip,1,0,0,0.00%
+,Mild Peppers,2,0,0,0.00%
+,Italian Sausage,4,0,0,0.00%
+,Mushroom,2,0,0,0.00%
+,Tossed in Sauce,1,0,0,0.00%
+,Pineapple,5,0,0,0.00%
+,Hot and Spicy,1,0,0,0.00%
+,Green Olives,1,0,0,0.00%
+,Plain,1,0,0,0.00%
+,Garlic Butter Parmesan,1,0.99,0.99,0.00%
+,Grilled Chicken,1,2.99,2.99,0.01%
+,Butter Parm All Over,1,1.99,1.99,0.01%
+,Sauce on Side,1,0,0,0.00%
+,WELL DONE,2,0,0,0.00%
+,Hamburger,1,0,0,0.00%
+,No Sauce,1,0,0,0.00%
+,Original BBQ,2,0,0,0.00%
+,Bacon,6,0,0,0.00%
+,Pepperoni,12,0,0,0.00%
+,Green Peppers,1,0,0,0.00%
+,Ham,1,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: None,,198,$238.15,$238.15,0.73%
+,Round,6,0,0,0.00%
+,Square,7,0,0,0.00%
+,CC SURCHARGE,185,238.15,238.15,0.73%
+,,,,,
+,,,,,
+Report Group: OpenItem,,16,$71.96,$71.96,0.22%
+,Open Item,16,71.96,71.96,0.22%
+,,,,,
+,,,,,
+Report Group: Pasta,,7,$104.93,$104.93,0.32%
+,Papas Lasagna,7,104.93,104.93,0.32%
+,,,,,
+,,,,,
+Report Group: PastaMods,,14,$0.00,$0.00,0%
+,Bread,7,0,0,0.00%
+,Tossed Salad,7,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Pizza,,1141,"$15,333.99","$15,258.77",46.83%
+,Vegetarian Pizza,39,686.61,684.61,2.10%
+,The Works Pizza,26,546.54,546.54,1.68%
+,A1 Philly Steak Pizza,7,153.93,153.93,0.47%
+,Chicken Bacon Ranch Pizza,8,169.92,169.92,0.52%
+,BBQ Barbarian Pizza,11,231.89,231.89,0.71%
+,Hawaiian Pizza,15,263.85,263.85,0.81%
+,Meat Lovers Pizza,61,1096.39,1094.39,3.36%
+,BBQ Chicken Pizza,59,1076.61,1069.61,3.28%
+,Chick Mediterranean Pizza,19,380.51,380.51,1.17%
+,Build Your Own Pizza,823,9400.67,9342.2,28.67%
+,BLT Pizza,3,59.77,54.02,0.17%
+,Supreme Pizza,51,941.49,941.49,2.89%
+,Buffalo Chicken Pizza,19,325.81,325.81,1.00%
+,,,,,
+,,,,,
+Report Group: PizzaMods,,2146,"$4,725.08","$3,441.05",10.56%
+,Feta Cheese,2,7.98,4,0.01%
+,Cheese Only,70,0,0,0.00%
+,A1 Sauce,1,3.99,3.99,0.01%
+,Mild Peppers,51,110.08,75.2,0.23%
+,Garlic Crust ,29,29.31,29.31,0.09%
+,Crispy Chicken,1,3.99,3.99,0.01%
+,Hot Honey,2,5.98,5.98,0.02%
+,Parmesan Only,1,0.99,0.99,0.00%
+,Italian Sausage,119,324.34,224.31,0.69%
+,Oregano,4,11.96,3.98,0.01%
+,Mushroom,119,317.74,214.35,0.66%
+,Jalapeno,26,67.74,43.84,0.13%
+,Tomato,14,31.87,30.89,0.09%
+,Anchovies,1,3.99,3.99,0.01%
+,Mozzarella Cheese,38,110.12,76.25,0.23%
+,Black Olives,50,125.54,89.21,0.27%
+,Pineapple,61,155.32,123.45,0.38%
+,Green Olives,11,26.89,22.92,0.07%
+,Cajun Crust,36,35.64,34.65,0.11%
+,Garlic Butter Parmesan,279,284.55,248.91,0.76%
+,Grilled Chicken,23,85.67,70.72,0.22%
+,Butter Parm All Over,53,111.25,100.36,0.31%
+,Pizza Sauce,16,0,0,0.00%
+,Cook Light,13,0,0,0.00%
+,WELL DONE,84,0,0,0.00%
+,BBQ Sauce,5,12.95,5,0.02%
+,Hamburger,62,170.4,115.75,0.36%
+,Ranch,2,1.99,1.99,0.01%
+,Butter only,8,8.52,8.52,0.03%
+,Red Onion,94,244.58,158.47,0.49%
+,Steak,2,7.98,4.99,0.02%
+,Bacon,177,478.07,326,1.00%
+,Pepperoni,543,1558.39,1130.21,3.47%
+,Green Peppers,93,238.72,173.09,0.53%
+,Ham,56,148.54,105.74,0.32%
+,,,,,
+,,,,,
+Report Group: SaladMods,,203,$17.84,$17.84,0.05%
+,Bread,87,0,0,0.00%
+,No Bread,4,0,0,0.00%
+,Greek Dressing,28,4.92,4.92,0.02%
+,Salami,1,1.49,1.49,0.00%
+,Crispy Chicken,1,0,0,0.00%
+,Honey French,6,0,0,0.00%
+,Raspberry Vinaigrette,5,0,0,0.00%
+,Beets,1,0,0,0.00%
+,Honey Mustard,3,0,0,0.00%
+,Black Olives,3,1.99,1.99,0.01%
+,Italian Dressing,21,0,0,0.00%
+,Pepperonicini,2,1.99,1.99,0.01%
+,Thousand Island,2,0,0,0.00%
+,Shredded Cheese,0,0,0,0.00%
+,Ranch,35,7.45,7.45,0.02%
+,Red Onion,0,0,0,0.00%
+,Green Peppers,0,0,0,0.00%
+,Bleu Cheese,4,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Salads,,91,"$1,107.69","$1,107.69",3.4%
+,Antipasto Salad,29,347.71,347.71,1.07%
+,Chef Salad,12,143.88,143.88,0.44%
+,Grilled Chicken Salad,18,215.82,215.82,0.66%
+,Tossed Salad,5,54.95,54.95,0.17%
+,Greek Chicken Salad,6,89.94,89.94,0.28%
+,Greek Salad,21,255.39,255.39,0.78%
+,,,,,
+,,,,,
+Report Group: Sandwiches,,35,$397.65,$397.65,1.22%
+,Giant Corned Beef,8,127.92,127.92,0.39%
+,Corned Beef Sandwich,15,149.85,149.85,0.46%
+,Spicy Chicken Sandwich,12,119.88,119.88,0.37%
+,,,,,
+,,,,,
+Report Group: SandwichMods,,37,$39.82,$35.86,0.11%
+,Fries,16,31.84,27.88,0.09%
+,Cajun Fries,1,3.99,3.99,0.01%
+,BBQ Fries,1,3.99,3.99,0.01%
+,No Fries,19,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Sauces,,133,$253.15,$253.15,0.78%
+,Honey French,1,0,0,0.00%
+,Ranch,1,0,0,0.00%
+,Bleu Cheese,1,0,0,0.00%
+,Lemon Pepper,1,1.49,1.49,0.00%
+,Garlic Cream Cheese,1,1.99,1.99,0.01%
+,Garlic Butter,2,2.98,2.98,0.01%
+,Pizza Sauce,22,35.03,35.03,0.11%
+,Original BBQ,6,8.94,8.94,0.03%
+,Hot Honey,2,2.98,2.98,0.01%
+,Dressings,3,4.47,4.47,0.01%
+,Hot and Spicy,1,1.49,1.49,0.00%
+,Ranch ,79,119.96,119.96,0.37%
+,Bottle of Ranch,12,71.88,71.88,0.22%
+,Honey Mustard,1,1.94,1.94,0.01%
+,,,,,
+,,,,,
+Report Group: Seafood,,18,$307.82,$307.82,0.94%
+,Alaskan Cod Dinner,8,127.92,127.92,0.39%
+,20pc Jumbo Shrimp,3,74.97,74.97,0.23%
+,10pc Jumbo Shrimp,7,104.93,104.93,0.32%
+,,,,,
+,,,,,
+Report Group: SeafoodMods,,54,$11.97,$11.97,0.04%
+,BBQ Fries,1,1.99,1.99,0.01%
+,Fries,16,0,0,0.00%
+,No Fries,1,0,0,0.00%
+,Bread,18,0,0,0.00%
+,No Dip Sauce,1,0,0,0.00%
+,Add Cod,1,9.98,9.98,0.03%
+,Cocktail Sauce,8,0,0,0.00%
+,Tartar Sauce,8,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: SubMods,,42,$35.32,$35.32,0.11%
+,Fries,13,25.87,25.87,0.08%
+,No Fries,16,0,0,0.00%
+,Mild Peppers,1,0,0,0.00%
+,Mushroom,1,0,0,0.00%
+,Jalapeno,1,0,0,0.00%
+,Tomato,1,1.99,1.99,0.01%
+,Mozzarella Cheese,1,0,0,0.00%
+,Mayo,2,0,0,0.00%
+,Italian Dressing,1,1.49,1.49,0.00%
+,Lettuce,1,0,0,0.00%
+,Bacon,4,5.97,5.97,0.02%
+,,,,,
+,,,,,
+Report Group: Subs,,31,$355.69,$355.69,1.09%
+,Grilled Chicken Sub,7,83.93,83.93,0.26%
+,Steak and Cheese Sub,4,47.96,47.96,0.15%
+,Turkey Sub,5,54.95,54.95,0.17%
+,Italian Sub,10,109.9,109.9,0.34%
+,Pizza Sub,1,10.99,10.99,0.03%
+,Turkey Club Sub,4,47.96,47.96,0.15%
+,,,,,
+,,,,,
+Report Group: WingMods,,875,$272.34,$272.34,0.84%
+,Fries,97,120.6,120.6,0.37%
+,Cajun Fries,2,7.98,7.98,0.02%
+,No Fries,141,0,0,0.00%
+,Bread,36,0,0,0.00%
+,No Bread,1,0,0,0.00%
+,Mango Habanero,14,2.98,2.98,0.01%
+,Lemon Pepper,8,3.72,3.72,0.01%
+,Flats only,4,3.53,3.53,0.01%
+,Hot Honey,26,5.21,5.21,0.02%
+,Sweet Red Chili,8,1.49,1.49,0.00%
+,Garlic Parmesan,23,10.3,10.3,0.03%
+,Tossed in Sauce,99,0,0,0.00%
+,Nashville Hot,5,1.49,1.49,0.00%
+,Hot and Spicy,47,7.45,7.45,0.02%
+,Ranch Dip Sauce,20,6.86,6.86,0.02%
+,Plain,39,0,0,0.00%
+,Sauce on Side,76,0,0,0.00%
+,Cook Light,2,0,0,0.00%
+,WELL DONE,37,0,0,0.00%
+,Ranch,56,70.03,70.03,0.21%
+,No Sauce,39,4.92,4.92,0.02%
+,Original BBQ,87,16.84,16.84,0.05%
+,Bleu Cheese,7,8.94,8.94,0.03%
+,Hot BBQ,1,0,0,0.00%
+,,,,,
+,,,,,
+Report Group: Wings,,240,"$3,492.10","$3,492.10",10.72%
+,Wing Dings,150,2244,2244,6.89%
+,Boneless Wings,53,759.67,759.67,2.33%
+,Chicken Tenders,37,488.43,488.43,1.50%
+,,,,,
+,,,,,
+,,,Tax: $517.30,"Adj for Order/Multi-Item Coupons: -$1,386.62",
+,,,"Total: $34,541.10","Total: $31,197.45",

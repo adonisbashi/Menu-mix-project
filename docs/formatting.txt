@@ -1,0 +1,6 @@
+For some reason, there are extra NaN values for 8 and 9... unsure why
+
+There is only dollar signs on the total category values
+
+Get rid of the floats on the quanities since we dont sell half of anything
+
