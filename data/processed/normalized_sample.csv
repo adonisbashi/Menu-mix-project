@@ -1,6 +1,6 @@
 plu,item_name,qty,gross_cents,net_cents,sales_pct,is_numeric_qty
-Store: Farmington - 12 Mile,,6816,3100,3000,100%,True
-Report Group: AppetizerMods,,25,1336,1336,0.04%,True
+Store: Farmington - 12 Mile,,6816,,,100%,True
+Report Group: AppetizerMods,,25,,,0.04%,True
 nan,Cajun Seasoning,1,99,99,0.00%,True
 nan,Pizza Sauce,4,0,0,0.00%,True
 nan,BBQ Sauce,1,149,149,0.00%,True
@@ -9,7 +9,7 @@ nan,No Sauce,1,0,0,0.00%,True
 nan,Bleu Cheese,2,298,298,0.01%,True
 nan,,,,,,False
 nan,,,,,,False
-Report Group: Appetizers,,61,44179,44179,1.45%,True
+Report Group: Appetizers,,61,,,1.45%,True
 nan,Large BBQ Fries,1,699,699,0.02%,True
 nan,Lemon Pepper Chick Wedges,1,999,999,0.03%,True
 nan,Small Fries,3,897,897,0.03%,True
