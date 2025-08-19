@@ -1,285 +1,280 @@
-plu,item_name,qty,gross_cents,net_cents,sales_pct,is_numeric_qty,looks_like_header
-<NA>,Cajun Seasoning,1,99,99,0.0,True,False
-<NA>,Pizza Sauce,4,0,0,0.0,True,False
-<NA>,BBQ Sauce,1,149,149,0.0,True,False
-<NA>,Ranch,16,790,790,0.0,True,False
-<NA>,No Sauce,1,0,0,0.0,True,False
-<NA>,Bleu Cheese,2,298,298,0.0,True,False
-<NA>,Large BBQ Fries,1,699,699,0.0,True,False
-<NA>,Lemon Pepper Chick Wedges,1,999,999,0.0,True,False
-<NA>,Small Fries,3,897,897,0.0,True,False
-<NA>,Small BBQ Fries,1,399,399,0.0,True,False
-<NA>,Potato Wedges,2,1198,1198,0.0,True,False
-<NA>,Large Fries,15,9525,9525,0.003,True,False
-<NA>,Onion Rings,9,6291,6291,0.002,True,False
-<NA>,Mozzarella Cheese Sticks,16,11184,11184,0.004,True,False
-<NA>,Buffalo Chicken Fries,12,11988,11988,0.004,True,False
-<NA>,Loaded Bacon Wedges,1,999,999,0.0,True,False
-<NA>,Water,5,750,750,0.0,True,False
-<NA>,Orange Crush,10,3704,3704,0.001,True,False
-<NA>,Pink Lemonade,11,4169,4169,0.001,True,False
-<NA>,Cherry Pepsi,26,9168,9168,0.003,True,False
-<NA>,Diet Pepsi,28,9612,9612,0.003,True,False
-<NA>,Starry,19,5715,5715,0.002,True,False
-<NA>,Mountain Dew,20,6180,6180,0.002,True,False
-<NA>,Pepsi,107,35603,35478,0.012,True,False
-<NA>,Grape Crush,2,872,872,0.0,True,False
-<NA>,Large Paparoni Bread,45,50115,50115,0.016,True,False
-<NA>,Large Cheesy Bread,106,107394,107394,0.035,True,False
-<NA>,Small Paparoni Bread,15,11985,11966,0.004,True,False
-<NA>,Cinna Bread,9,7431,7431,0.002,True,False
-<NA>,Small Cheesy Bread,58,42012,42012,0.014,True,False
-<NA>,Papas Bread Stix,35,27965,27965,0.009,True,False
-<NA>,Garlic Butter,4,796,796,0.0,True,False
-<NA>,Italian Sausage,1,199,199,0.0,True,False
-<NA>,Mushroom,1,199,199,0.0,True,False
-<NA>,Garlic Cream Cheese,5,995,995,0.0,True,False
-<NA>,Icing,2,458,458,0.0,True,False
-<NA>,Jalapenos,3,597,597,0.0,True,False
-<NA>,Garlic Butter Parmesan,1,100,100,0.0,True,False
-<NA>,Pizza Sauce,148,2311,2311,0.001,True,False
-<NA>,Ranch,115,3697,3697,0.001,True,False
-<NA>,No Sauce,23,0,0,0.0,True,False
-<NA>,Steak,2,598,598,0.0,True,False
-<NA>,Bacon,3,597,597,0.0,True,False
-<NA>,Pepperoni,5,846,846,0.0,True,False
-<NA>,Fries,1,199,199,0.0,True,False
-<NA>,No Fries,4,0,0,0.0,True,False
-<NA>,Cheeseburger,5,5495,5495,0.002,True,False
-<NA>,Fries,30,5970,2985,0.001,True,False
-<NA>,Cajun Fries,1,399,399,0.0,True,False
-<NA>,No Fries,27,0,0,0.0,True,False
-<NA>,Salami,1,0,0,0.0,True,False
-<NA>,Mild Peppers,5,199,99,0.0,True,False
-<NA>,Crispy Chicken,3,897,498,0.0,True,False
-<NA>,Italian Sausage,4,0,0,0.0,True,False
-<NA>,Mushroom,8,0,0,0.0,True,False
-<NA>,Jalapeno,4,0,0,0.0,True,False
-<NA>,Tomato,0,0,0,0.0,True,False
-<NA>,Mozzarella Cheese,3,199,199,0.0,True,False
-<NA>,Mayo,5,0,0,0.0,True,False
-<NA>,Black Olives,1,0,0,0.0,True,False
-<NA>,Italian Dressing,0,0,0,0.0,True,False
-<NA>,Pineapple,4,199,199,0.0,True,False
-<NA>,Swiss Cheese,1,0,0,0.0,True,False
-<NA>,Hamburger,3,0,0,0.0,True,False
-<NA>,Red Onion,3,199,199,0.0,True,False
-<NA>,Steak,3,897,698,0.0,True,False
-<NA>,Lettuce,1,199,199,0.0,True,False
-<NA>,Bacon,7,0,0,0.0,True,False
-<NA>,Pepperoni,12,0,0,0.0,True,False
-<NA>,Green Peppers,5,0,0,0.0,True,False
-<NA>,Turkey,3,0,0,0.0,True,False
-<NA>,Italian,8,0,0,0.0,True,False
-<NA>,Turkey Club,1,0,0,0.0,True,False
-<NA>,Pizza,1,0,0,0.0,True,False
-<NA>,Steak and Cheese,2,0,0,0.0,True,False
-<NA>,Grilled Chicken,1,0,0,0.0,True,False
-<NA>,Steak and Cheese Calzone,17,20743,20143,0.007,True,False
-<NA>,Turkey Club Calzone,1,1199,1099,0.0,True,False
-<NA>,Italian Calzone,13,14287,14287,0.005,True,False
-<NA>,Pizza Calzone,22,24508,24508,0.008,True,False
-<NA>,Grilled Chicken Calzone,3,3597,3597,0.001,True,False
-<NA>,Turkey Calzone,2,2198,2198,0.001,True,False
-<NA>,Full Tray Breadsticks,3,5997,5997,0.002,True,False
-<NA>,Half Tray French Fries,1,1599,1599,0.0,True,False
-<NA>,Full Tray Salads,4,19996,19996,0.007,True,False
-<NA>,Large Catering Pizza,6,7194,7194,0.002,True,False
-<NA>,Round,6,0,0,0.0,True,False
-<NA>,Greek Salad,1,0,0,0.0,True,False
-<NA>,Antipasto Salad,2,0,0,0.0,True,False
-<NA>,Tossed Salad,1,0,0,0.0,True,False
-<NA>,Greek Dressing,1,0,0,0.0,True,False
-<NA>,Italian Sausage,1,0,0,0.0,True,False
-<NA>,Italian Dressing,2,0,0,0.0,True,False
-<NA>,Ranch,2,149,149,0.0,True,False
-<NA>,Pepperoni,3,0,0,0.0,True,False
-<NA>,CC SURCHARGE,561,58708,58708,0.019,True,False
-<NA>,Superman,1,0,0,0.0,True,False
-<NA>,Strawberry Crunch,19,0,0,0.0,True,False
-<NA>,Cinna Bread,2,1598,1598,0.0,True,False
-<NA>,Strawberry Shortcake,11,6769,6769,0.002,True,False
-<NA>,Luckis Cheesecake,20,11980,11980,0.004,True,False
-<NA>,Papas Brownie,7,4893,4893,0.002,True,False
-<NA>,Papas Big Cookie,5,3495,3495,0.001,True,False
-<NA>,Chocolate Cake,20,11980,11980,0.004,True,False
-<NA>,Spicy Chicken Sandwich,1,0,0,0.0,True,False
-<NA>,Corned Beef Sand,10,0,0,0.0,True,False
-<NA>,Tossed Salad Combo,1,999,999,0.0,True,False
-<NA>,Pizza Calzone Combo,16,15984,15984,0.005,True,False
-<NA>,Sm Round 2 Topping Pizza,17,16983,16983,0.006,True,False
-<NA>,Spicy Chicken and Fries,1,999,999,0.0,True,False
-<NA>,Corned Beef and Fries,10,9990,9990,0.003,True,False
-<NA>,Diet Pepsi,3,0,0,0.0,True,False
-<NA>,Mountain Dew,2,0,0,0.0,True,False
-<NA>,Ginger Ale,2,0,0,0.0,True,False
-<NA>,Water,3,0,0,0.0,True,False
-<NA>,Tossed Salad,1,0,0,0.0,True,False
-<NA>,Starry,4,0,0,0.0,True,False
-<NA>,Pepsi,31,0,0,0.0,True,False
-<NA>,Mild Peppers,3,0,0,0.0,True,False
-<NA>,Italian Sausage,4,0,0,0.0,True,False
-<NA>,Mushroom,5,0,0,0.0,True,False
-<NA>,Black Olives,2,199,199,0.0,True,False
-<NA>,Pineapple,1,0,0,0.0,True,False
-<NA>,BBQ Sauce,3,0,0,0.0,True,False
-<NA>,Red Onion,4,0,0,0.0,True,False
-<NA>,Steak,1,299,299,0.0,True,False
-<NA>,Bacon,4,199,199,0.0,True,False
-<NA>,Pepperoni,12,0,0,0.0,True,False
-<NA>,Green Peppers,1,0,0,0.0,True,False
-<NA>,Ham,3,0,0,0.0,True,False
-<NA>,Round,9,0,0,0.0,True,False
-<NA>,Square,8,0,0,0.0,True,False
-<NA>,CC SURCHARGE,191,22456,22456,0.007,True,False
-<NA>,Open Item,15,23298,23298,0.008,True,False
-<NA>,Papas Lasagna,9,13491,13491,0.004,True,False
-<NA>,Bread,9,0,0,0.0,True,False
-<NA>,Tossed Salad,9,0,0,0.0,True,False
-<NA>,BLT Pizza,3,4997,4997,0.002,True,False
-<NA>,The Works Pizza,41,86119,86119,0.028,True,False
-<NA>,A1 Philly Steak Pizza,3,6197,6197,0.002,True,False
-<NA>,Chicken Bacon Ranch Pizza,16,31884,31884,0.01,True,False
-<NA>,BBQ Chicken Pizza,48,88252,88252,0.029,True,False
-<NA>,Hawaiian Pizza,24,43596,43596,0.014,True,False
-<NA>,Vegetarian Pizza,32,57428,57428,0.019,True,False
-<NA>,Meat Lovers Pizza,51,96009,96009,0.032,True,False
-<NA>,Chick Mediterranean Pizza,31,63169,63169,0.021,True,False
-<NA>,Build Your Own Pizza,699,795651,795256,0.261,True,False
-<NA>,Supreme Pizza,56,107214,107214,0.035,True,False
-<NA>,Buffalo Chicken Pizza,18,31002,31002,0.01,True,False
-<NA>,BBQ Barbarian Pizza,14,30086,30086,0.01,True,False
-<NA>,Feta Cheese,3,997,997,0.0,True,False
-<NA>,Cheese Only,52,0,0,0.0,True,False
-<NA>,Mild Peppers,52,13389,8562,0.003,True,False
-<NA>,Garlic Crust,36,3714,3714,0.001,True,False
-<NA>,Crispy Chicken,7,2813,2514,0.001,True,False
-<NA>,Hot Honey,3,897,498,0.0,True,False
-<NA>,Parmesan Only,6,594,495,0.0,True,False
-<NA>,Italian Sausage,110,30155,21458,0.007,True,False
-<NA>,Oregano,6,1654,1155,0.0,True,False
-<NA>,Mushroom,100,27632,19818,0.007,True,False
-<NA>,Jalapeno,28,6924,4891,0.002,True,False
-<NA>,Tomato,10,2590,1693,0.001,True,False
-<NA>,Anchovies,2,698,698,0.0,True,False
-<NA>,Mozzarella Cheese,26,6676,5779,0.002,True,False
-<NA>,Black Olives,54,14698,10715,0.003,True,False
-<NA>,Pineapple,64,15312,10234,0.003,True,False
-<NA>,Green Olives,9,2191,1892,0.001,True,False
-<NA>,Cajun Crust,40,4000,4000,0.001,True,False
-<NA>,Buffalo Sauce,0,0,0,0.0,True,False
-<NA>,Garlic Butter Parmesan,246,24356,23267,0.008,True,False
-<NA>,Grilled Chicken,32,11358,10661,0.003,True,False
-<NA>,Butter Parm All Over,41,8399,7903,0.003,True,False
-<NA>,Pizza Sauce,21,0,0,0.0,True,False
-<NA>,Cook Light,4,0,0,0.0,True,False
-<NA>,WELL DONE,74,0,0,0.0,True,False
-<NA>,BBQ Sauce,7,1893,1893,0.001,True,False
-<NA>,Hamburger,52,14098,11473,0.004,True,False
-<NA>,Ranch,4,1096,1096,0.0,True,False
-<NA>,Butter only,13,1287,1287,0.0,True,False
-<NA>,Red Onion,74,19586,15010,0.005,True,False
-<NA>,Lettuce,2,598,500,0.0,True,False
-<NA>,Bacon,145,39637,29299,0.01,True,False
-<NA>,Pepperoni,482,132781,97807,0.032,True,False
-<NA>,Green Peppers,81,20832,14759,0.005,True,False
-<NA>,Ham,54,14049,10769,0.003,True,False
-<NA>,Bread,78,0,0,0.0,True,False
-<NA>,No Bread,2,0,0,0.0,True,False
-<NA>,Feta Cheese,1,0,0,0.0,True,False
-<NA>,Greek Dressing,27,492,492,0.0,True,False
-<NA>,Salami,1,149,149,0.0,True,False
-<NA>,Honey French,3,0,0,0.0,True,False
-<NA>,Raspberry Vinaigrette,6,149,149,0.0,True,False
-<NA>,Beets,1,100,100,0.0,True,False
-<NA>,Honey Mustard,2,0,0,0.0,True,False
-<NA>,No Dressing,1,0,0,0.0,True,False
-<NA>,Black Olives,3,398,398,0.0,True,False
-<NA>,Italian Dressing,20,0,0,0.0,True,False
-<NA>,Thousand Island,2,0,0,0.0,True,False
-<NA>,Shredded Cheese,0,0,0,0.0,True,False
-<NA>,Ranch,29,745,745,0.0,True,False
-<NA>,Red Onion,0,0,0,0.0,True,False
-<NA>,Egg,2,50,50,0.0,True,False
-<NA>,Green Peppers,1,199,199,0.0,True,False
-<NA>,Bleu Cheese,2,149,149,0.0,True,False
-<NA>,Antipasto Salad,22,26378,26378,0.009,True,False
-<NA>,Chef Salad,13,15587,15587,0.005,True,False
-<NA>,Grilled Chicken Salad,13,15587,15587,0.005,True,False
-<NA>,Tossed Salad,7,7693,7693,0.002,True,False
-<NA>,Greek Chicken Salad,7,10493,10493,0.003,True,False
-<NA>,Greek Salad,18,21942,21942,0.007,True,False
-<NA>,Giant Corned Beef,1,1599,1599,0.0,True,False
-<NA>,Corned Beef Sandwich,10,9990,9990,0.003,True,False
-<NA>,Spicy Chicken Sandwich,8,7992,7992,0.003,True,False
-<NA>,Fries,10,1990,1693,0.001,True,False
-<NA>,Cajun Fries,1,399,399,0.0,True,False
-<NA>,No Fries,9,0,0,0.0,True,False
-<NA>,Greek Dressing,1,0,0,0.0,True,False
-<NA>,Ranch,2,0,0,0.0,True,False
-<NA>,Bleu Cheese,2,0,0,0.0,True,False
-<NA>,Pizza Sauce,7,1088,1088,0.0,True,False
-<NA>,Garlic Cream Cheese,3,657,657,0.0,True,False
-<NA>,Original BBQ,11,1639,1639,0.0,True,False
-<NA>,Dressings,5,745,745,0.0,True,False
-<NA>,Hot and Spicy,3,447,447,0.0,True,False
-<NA>,Tartar Sauce,2,298,298,0.0,True,False
-<NA>,Ranch,74,11656,11656,0.004,True,False
-<NA>,Cocktail Sauce,1,149,149,0.0,True,False
-<NA>,Bottle of Ranch,17,10183,10183,0.003,True,False
-<NA>,Garlic Parmesan,2,388,388,0.0,True,False
-<NA>,Alaskan Cod Dinner,17,27183,27183,0.009,True,False
-<NA>,20pc Jumbo Shrimp,4,11496,11496,0.004,True,False
-<NA>,10pc Jumbo Shrimp,8,11992,11992,0.004,True,False
-<NA>,BBQ Fries,2,398,398,0.0,True,False
-<NA>,Fries,23,0,0,0.0,True,False
-<NA>,No Fries,4,0,0,0.0,True,False
-<NA>,Bread,27,0,0,0.0,True,False
-<NA>,No Bread,2,0,0,0.0,True,False
-<NA>,Add Cod,1,350,350,0.0,True,False
-<NA>,Cocktail Sauce,13,149,149,0.0,True,False
-<NA>,Tartar Sauce,15,149,149,0.0,True,False
-<NA>,No Dip Sauce,1,388,388,0.0,True,False
-<NA>,Fries,8,1592,1592,0.0,True,False
-<NA>,No Fries,11,0,0,0.0,True,False
-<NA>,Salami,1,199,199,0.0,True,False
-<NA>,Mild Peppers,1,0,0,0.0,True,False
-<NA>,Italian Sausage,2,0,0,0.0,True,False
-<NA>,Mushroom,1,0,0,0.0,True,False
-<NA>,Jalapeno,1,0,0,0.0,True,False
-<NA>,Tomato,1,199,199,0.0,True,False
-<NA>,Pineapple,1,0,0,0.0,True,False
-<NA>,Pepperoni,2,0,0,0.0,True,False
-<NA>,Grilled Chicken Sub,1,1199,1199,0.0,True,False
-<NA>,Steak and Cheese Sub,3,3597,3597,0.001,True,False
-<NA>,Turkey Sub,3,3297,3297,0.001,True,False
-<NA>,Italian Sub,5,5495,5495,0.002,True,False
-<NA>,Pizza Sub,3,3297,3297,0.001,True,False
-<NA>,Turkey Club Sub,5,5995,5995,0.002,True,False
-<NA>,Fries,84,8816,8816,0.003,True,False
-<NA>,Extra Bread,2,198,198,0.0,True,False
-<NA>,Cajun Fries,5,1995,1995,0.001,True,False
-<NA>,No Fries,145,0,0,0.0,True,False
-<NA>,Bread,39,0,0,0.0,True,False
-<NA>,No Bread,2,0,0,0.0,True,False
-<NA>,Mango Habanero,20,447,447,0.0,True,False
-<NA>,Lemon Pepper,13,268,268,0.0,True,False
-<NA>,Flats only,2,251,251,0.0,True,False
-<NA>,Hot Honey,14,596,596,0.0,True,False
-<NA>,Sweet Red Chili,10,224,224,0.0,True,False
-<NA>,Garlic Parmesan,20,851,851,0.0,True,False
-<NA>,Tossed in Sauce,112,0,0,0.0,True,False
-<NA>,Nashville Hot,2,0,0,0.0,True,False
-<NA>,Hot and Spicy,49,521,521,0.0,True,False
-<NA>,Ranch Dip Sauce,18,596,596,0.0,True,False
-<NA>,Plain,30,0,0,0.0,True,False
-<NA>,Sauce on Side,67,0,0,0.0,True,False
-<NA>,Cook Light,2,0,0,0.0,True,False
-<NA>,WELL DONE,22,0,0,0.0,True,False
-<NA>,Ranch,39,4172,4172,0.001,True,False
-<NA>,No Sauce,30,790,790,0.0,True,False
-<NA>,Original BBQ,93,1088,1088,0.0,True,False
-<NA>,Bleu Cheese,6,298,298,0.0,True,False
-<NA>,Wing Dings,144,213836,213375,0.07,True,False
-<NA>,Boneless Wings,47,64053,64053,0.021,True,False
-<NA>,Chicken Tenders,43,55857,55857,0.018,True,False
+item_name,qty,gross_cents,net_cents,sales_pct,plu
+Cajun Seasoning,1,99,99,0.0,
+Pizza Sauce,4,0,0,0.0,
+BBQ Sauce,1,149,149,0.0,
+Ranch,16,790,790,0.0003,
+No Sauce,1,0,0,0.0,
+Bleu Cheese,2,298,298,0.0001,
+Large BBQ Fries,1,699,699,0.0002,
+Lemon Pepper Chick Wedges,1,999,999,0.0003,
+Small Fries,3,897,897,0.0003,
+Small BBQ Fries,1,399,399,0.0001,
+Potato Wedges,2,1198,1198,0.0004,
+Large Fries,15,9525,9525,0.0031,
+Onion Rings,9,6291,6291,0.0021,
+Mozzarella Cheese Sticks,16,11184,11184,0.0037,
+Buffalo Chicken Fries,12,11988,11988,0.0039,
+Loaded Bacon Wedges,1,999,999,0.0003,
+Water,5,750,750,0.0002,
+Orange Crush,10,3704,3704,0.0012,
+Pink Lemonade,11,4169,4169,0.0014,
+Cherry Pepsi,26,9168,9168,0.003,
+Diet Pepsi,28,9612,9612,0.0032,
+Starry,19,5715,5715,0.0019,
+Mountain Dew,20,6180,6180,0.002,
+Pepsi,107,35603,35478,0.0117,
+Grape Crush,2,872,872,0.0003,
+Large Paparoni Bread,45,50115,50115,0.0165,
+Large Cheesy Bread,106,107394,107394,0.0353,
+Small Paparoni Bread,15,11985,11966,0.0039,
+Cinna Bread,9,7431,7431,0.0024,
+Small Cheesy Bread,58,42012,42012,0.0138,
+Papas Bread Stix,35,27965,27965,0.0092,
+Garlic Butter,4,796,796,0.0003,
+Italian Sausage,1,199,199,0.0001,
+Mushroom,1,199,199,0.0001,
+Garlic Cream Cheese,5,995,995,0.0003,
+Icing,2,458,458,0.0002,
+Jalapenos,3,597,597,0.0002,
+Garlic Butter Parmesan,1,100,100,0.0,
+Pizza Sauce,148,2311,2311,0.0008,
+Ranch,115,3697,3697,0.0012,
+No Sauce,23,0,0,0.0,
+Steak,2,598,598,0.0002,
+Bacon,3,597,597,0.0002,
+Pepperoni,5,846,846,0.0003,
+Fries,1,199,199,0.0001,
+No Fries,4,0,0,0.0,
+Cheeseburger,5,5495,5495,0.0018,
+Fries,30,5970,2985,0.001,
+Cajun Fries,1,399,399,0.0001,
+No Fries,27,0,0,0.0,
+Salami,1,0,0,0.0,
+Mild Peppers,5,199,99,0.0,
+Crispy Chicken,3,897,498,0.0002,
+Italian Sausage,4,0,0,0.0,
+Mushroom,8,0,0,0.0,
+Jalapeno,4,0,0,0.0,
+Mozzarella Cheese,3,199,199,0.0001,
+Mayo,5,0,0,0.0,
+Black Olives,1,0,0,0.0,
+Pineapple,4,199,199,0.0001,
+Swiss Cheese,1,0,0,0.0,
+Hamburger,3,0,0,0.0,
+Red Onion,3,199,199,0.0001,
+Steak,3,897,698,0.0002,
+Lettuce,1,199,199,0.0001,
+Bacon,7,0,0,0.0,
+Pepperoni,12,0,0,0.0,
+Green Peppers,5,0,0,0.0,
+Turkey,3,0,0,0.0,
+Italian,8,0,0,0.0,
+Turkey Club,1,0,0,0.0,
+Pizza,1,0,0,0.0,
+Steak and Cheese,2,0,0,0.0,
+Grilled Chicken,1,0,0,0.0,
+Steak and Cheese Calzone,17,20743,20143,0.0066,
+Turkey Club Calzone,1,1199,1099,0.0004,
+Italian Calzone,13,14287,14287,0.0047,
+Pizza Calzone,22,24508,24508,0.0081,
+Grilled Chicken Calzone,3,3597,3597,0.0012,
+Turkey Calzone,2,2198,2198,0.0007,
+Full Tray Breadsticks,3,5997,5997,0.002,
+Half Tray French Fries,1,1599,1599,0.0005,
+Full Tray Salads,4,19996,19996,0.0066,
+Large Catering Pizza,6,7194,7194,0.0024,
+Round,6,0,0,0.0,
+Greek Salad,1,0,0,0.0,
+Antipasto Salad,2,0,0,0.0,
+Tossed Salad,1,0,0,0.0,
+Greek Dressing,1,0,0,0.0,
+Italian Sausage,1,0,0,0.0,
+Italian Dressing,2,0,0,0.0,
+Ranch,2,149,149,0.0,
+Pepperoni,3,0,0,0.0,
+CC SURCHARGE,561,58708,58708,0.0193,
+Superman,1,0,0,0.0,
+Strawberry Crunch,19,0,0,0.0,
+Cinna Bread,2,1598,1598,0.0005,
+Strawberry Shortcake,11,6769,6769,0.0022,
+Luckis Cheesecake,20,11980,11980,0.0039,
+Papas Brownie,7,4893,4893,0.0016,
+Papas Big Cookie,5,3495,3495,0.0011,
+Chocolate Cake,20,11980,11980,0.0039,
+Spicy Chicken Sandwich,1,0,0,0.0,
+Corned Beef Sand,10,0,0,0.0,
+Tossed Salad Combo,1,999,999,0.0003,
+Pizza Calzone Combo,16,15984,15984,0.0053,
+Sm Round 2 Topping Pizza,17,16983,16983,0.0056,
+Spicy Chicken and Fries,1,999,999,0.0003,
+Corned Beef and Fries,10,9990,9990,0.0033,
+Diet Pepsi,3,0,0,0.0,
+Mountain Dew,2,0,0,0.0,
+Ginger Ale,2,0,0,0.0,
+Water,3,0,0,0.0,
+Tossed Salad,1,0,0,0.0,
+Starry,4,0,0,0.0,
+Pepsi,31,0,0,0.0,
+Mild Peppers,3,0,0,0.0,
+Italian Sausage,4,0,0,0.0,
+Mushroom,5,0,0,0.0,
+Black Olives,2,199,199,0.0001,
+Pineapple,1,0,0,0.0,
+BBQ Sauce,3,0,0,0.0,
+Red Onion,4,0,0,0.0,
+Steak,1,299,299,0.0001,
+Bacon,4,199,199,0.0001,
+Pepperoni,12,0,0,0.0,
+Green Peppers,1,0,0,0.0,
+Ham,3,0,0,0.0,
+Round,9,0,0,0.0,
+Square,8,0,0,0.0,
+CC SURCHARGE,191,22456,22456,0.0074,
+Open Item,15,23298,23298,0.0077,
+Papas Lasagna,9,13491,13491,0.0044,
+Bread,9,0,0,0.0,
+Tossed Salad,9,0,0,0.0,
+BLT Pizza,3,4997,4997,0.0016,
+The Works Pizza,41,86119,86119,0.0283,
+A1 Philly Steak Pizza,3,6197,6197,0.002,
+Chicken Bacon Ranch Pizza,16,31884,31884,0.0105,
+BBQ Chicken Pizza,48,88252,88252,0.029,
+Hawaiian Pizza,24,43596,43596,0.0143,
+Vegetarian Pizza,32,57428,57428,0.0189,
+Meat Lovers Pizza,51,96009,96009,0.0316,
+Chick Mediterranean Pizza,31,63169,63169,0.0208,
+Build Your Own Pizza,699,795651,795256,0.2614,
+Supreme Pizza,56,107214,107214,0.0352,
+Buffalo Chicken Pizza,18,31002,31002,0.0102,
+BBQ Barbarian Pizza,14,30086,30086,0.0099,
+Feta Cheese,3,997,997,0.0003,
+Cheese Only,52,0,0,0.0,
+Mild Peppers,52,13389,8562,0.0028,
+Garlic Crust,36,3714,3714,0.0012,
+Crispy Chicken,7,2813,2514,0.0008,
+Hot Honey,3,897,498,0.0002,
+Parmesan Only,6,594,495,0.0002,
+Italian Sausage,110,30155,21458,0.0071,
+Oregano,6,1654,1155,0.0004,
+Mushroom,100,27632,19818,0.0065,
+Jalapeno,28,6924,4891,0.0016,
+Tomato,10,2590,1693,0.0006,
+Anchovies,2,698,698,0.0002,
+Mozzarella Cheese,26,6676,5779,0.0019,
+Black Olives,54,14698,10715,0.0035,
+Pineapple,64,15312,10234,0.0034,
+Green Olives,9,2191,1892,0.0006,
+Cajun Crust,40,4000,4000,0.0013,
+Garlic Butter Parmesan,246,24356,23267,0.0076,
+Grilled Chicken,32,11358,10661,0.0035,
+Butter Parm All Over,41,8399,7903,0.0026,
+Pizza Sauce,21,0,0,0.0,
+Cook Light,4,0,0,0.0,
+WELL DONE,74,0,0,0.0,
+BBQ Sauce,7,1893,1893,0.0006,
+Hamburger,52,14098,11473,0.0038,
+Ranch,4,1096,1096,0.0004,
+Butter only,13,1287,1287,0.0004,
+Red Onion,74,19586,15010,0.0049,
+Lettuce,2,598,500,0.0002,
+Bacon,145,39637,29299,0.0096,
+Pepperoni,482,132781,97807,0.0322,
+Green Peppers,81,20832,14759,0.0049,
+Ham,54,14049,10769,0.0035,
+Bread,78,0,0,0.0,
+No Bread,2,0,0,0.0,
+Feta Cheese,1,0,0,0.0,
+Greek Dressing,27,492,492,0.0002,
+Salami,1,149,149,0.0,
+Honey French,3,0,0,0.0,
+Raspberry Vinaigrette,6,149,149,0.0,
+Beets,1,100,100,0.0,
+Honey Mustard,2,0,0,0.0,
+No Dressing,1,0,0,0.0,
+Black Olives,3,398,398,0.0001,
+Italian Dressing,20,0,0,0.0,
+Thousand Island,2,0,0,0.0,
+Ranch,29,745,745,0.0002,
+Egg,2,50,50,0.0,
+Green Peppers,1,199,199,0.0001,
+Bleu Cheese,2,149,149,0.0,
+Antipasto Salad,22,26378,26378,0.0087,
+Chef Salad,13,15587,15587,0.0051,
+Grilled Chicken Salad,13,15587,15587,0.0051,
+Tossed Salad,7,7693,7693,0.0025,
+Greek Chicken Salad,7,10493,10493,0.0034,
+Greek Salad,18,21942,21942,0.0072,
+Giant Corned Beef,1,1599,1599,0.0005,
+Corned Beef Sandwich,10,9990,9990,0.0033,
+Spicy Chicken Sandwich,8,7992,7992,0.0026,
+Fries,10,1990,1693,0.0006,
+Cajun Fries,1,399,399,0.0001,
+No Fries,9,0,0,0.0,
+Greek Dressing,1,0,0,0.0,
+Ranch,2,0,0,0.0,
+Bleu Cheese,2,0,0,0.0,
+Pizza Sauce,7,1088,1088,0.0004,
+Garlic Cream Cheese,3,657,657,0.0002,
+Original BBQ,11,1639,1639,0.0005,
+Dressings,5,745,745,0.0002,
+Hot and Spicy,3,447,447,0.0001,
+Tartar Sauce,2,298,298,0.0001,
+Ranch,74,11656,11656,0.0038,
+Cocktail Sauce,1,149,149,0.0,
+Bottle of Ranch,17,10183,10183,0.0033,
+Garlic Parmesan,2,388,388,0.0001,
+Alaskan Cod Dinner,17,27183,27183,0.0089,
+20pc Jumbo Shrimp,4,11496,11496,0.0038,
+10pc Jumbo Shrimp,8,11992,11992,0.0039,
+BBQ Fries,2,398,398,0.0001,
+Fries,23,0,0,0.0,
+No Fries,4,0,0,0.0,
+Bread,27,0,0,0.0,
+No Bread,2,0,0,0.0,
+Add Cod,1,350,350,0.0001,
+Cocktail Sauce,13,149,149,0.0,
+Tartar Sauce,15,149,149,0.0,
+No Dip Sauce,1,388,388,0.0001,
+Fries,8,1592,1592,0.0005,
+No Fries,11,0,0,0.0,
+Salami,1,199,199,0.0001,
+Mild Peppers,1,0,0,0.0,
+Italian Sausage,2,0,0,0.0,
+Mushroom,1,0,0,0.0,
+Jalapeno,1,0,0,0.0,
+Tomato,1,199,199,0.0001,
+Pineapple,1,0,0,0.0,
+Pepperoni,2,0,0,0.0,
+Grilled Chicken Sub,1,1199,1199,0.0004,
+Steak and Cheese Sub,3,3597,3597,0.0012,
+Turkey Sub,3,3297,3297,0.0011,
+Italian Sub,5,5495,5495,0.0018,
+Pizza Sub,3,3297,3297,0.0011,
+Turkey Club Sub,5,5995,5995,0.002,
+Fries,84,8816,8816,0.0029,
+Extra Bread,2,198,198,0.0001,
+Cajun Fries,5,1995,1995,0.0007,
+No Fries,145,0,0,0.0,
+Bread,39,0,0,0.0,
+No Bread,2,0,0,0.0,
+Mango Habanero,20,447,447,0.0001,
+Lemon Pepper,13,268,268,0.0001,
+Flats only,2,251,251,0.0001,
+Hot Honey,14,596,596,0.0002,
+Sweet Red Chili,10,224,224,0.0001,
+Garlic Parmesan,20,851,851,0.0003,
+Tossed in Sauce,112,0,0,0.0,
+Nashville Hot,2,0,0,0.0,
+Hot and Spicy,49,521,521,0.0002,
+Ranch Dip Sauce,18,596,596,0.0002,
+Plain,30,0,0,0.0,
+Sauce on Side,67,0,0,0.0,
+Cook Light,2,0,0,0.0,
+WELL DONE,22,0,0,0.0,
+Ranch,39,4172,4172,0.0014,
+No Sauce,30,790,790,0.0003,
+Original BBQ,93,1088,1088,0.0004,
+Bleu Cheese,6,298,298,0.0001,
+Wing Dings,144,213836,213375,0.0701,
+Boneless Wings,47,64053,64053,0.0211,
+Chicken Tenders,43,55857,55857,0.0184,

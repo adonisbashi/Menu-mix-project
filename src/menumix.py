@@ -1,14 +1,14 @@
 import pandas as pd
 from pathlib import Path
 
-REQUIRED_COLS = ["PLU", "Item Name", "Qty", "Total $", "Net $", "Sales %"]
+REQUIRED_COLS = ["Item Name", "Qty", "Total $", "Net $", "Sales %", "PLU"]
 RENAME_MAP = {
-    "PLU": "plu",
     "Item Name": "item_name",
     "Qty": "qty",
     "Total $": "gross_cents",
     "Net $": "net_cents",
-    "Sales %": "sales_pct"
+    "Sales %": "sales_pct",
+    "PLU": "plu"
 }
 HEADER_ROW_VALUES = {
     "subtotal", "total", "grand total", "tax", "tender", "change",
@@ -33,9 +33,11 @@ def rename_to_canonical(df_raw: pd.DataFrame) -> pd.DataFrame:
 def clean_text_columns(df: pd.DataFrame) -> pd.DataFrame:
     df["plu"] = df["plu"].astype("string").str.strip()
     df["plu"] = df["plu"].replace({"": pd.NA})
+    df["plu"] = df["plu"].fillna("")
 
     df["item_name"] = df["item_name"].astype("string").str.strip()
     df["item_name"] = df["item_name"].str.replace(r"\s+", " ", regex=True)
+    df["item_name"] = df["item_name"].replace({"": pd.NA})
 
     return df
 
@@ -67,14 +69,14 @@ def parse_sales_pct(df: pd.DataFrame) -> pd.DataFrame:
         .str.replace("%", "", regex=False)
         .astype(float)
         .div(100)
-        .round(3)
+        .round(4)
     )
     return df
 
 def drop_fully_empty_rows(df):
     for col in ["plu", "item_name"]:
         df[col] = (
-            df[col].astype(str).str.strip()
+            df[col].astype("string").str.strip()
                 .replace(r"^$", pd.NA, regex=True)
         )
     key = ["plu", "item_name", "qty", "gross_cents", "net_cents"]
@@ -106,12 +108,6 @@ def tag_looks_like_header(df: pd.DataFrame) -> pd.DataFrame:
     qty_not_numeric = ~is_numeric_qty
 
     df["looks_like_header"] = (
-        # (df["qty"].isna() != df["is_numeric_quantity"])
-        # | (df["gross_cents"].isna() & df["net_cents"].isna())
-        # (~is_numeric_qty)
-        # | (name_clean.isin(HEADER_ROW_VALUES))
-        # | (plu_missing & name_clean.isin(KNOWN_CATEGORY_HEADERS))
-        # | ()
         starts_mask
         | (plu_missing & name_is_category)
         | name_missing
@@ -130,6 +126,29 @@ def drop_non_item_rows(df: pd.DataFrame) -> pd.DataFrame:
 
     return kept_df
 
+def finalize_and_export(df: pd.DataFrame, output_path: Path) -> None:
+    # Safety filters
+    df = df[df["item_name"].notna()].copy()
+    zero_row = (df["qty"].fillna(0) == 0) & (df["gross_cents"].fillna(0) == 0) & (df["net_cents"].fillna(0) == 0)
+    df = df.loc[~zero_row].copy()
+
+    # Canonical order
+    cols = ["item_name", "qty", "gross_cents", "net_cents", "sales_pct", "plu"]
+    df = df[cols]
+
+    # Export
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_path, index=False, na_rep="")
+
+    # Quick summaries for eyeballing (remove later if noisy)
+    print("\nTop 10 by qty:")
+    print(df.sort_values("qty", ascending=False).head(10)[["item_name","qty"]])
+
+    print("\nTop 10 by net (dollars):")
+    tmp = df.assign(net_dollars=(df["net_cents"] / 100.0))
+    print(tmp.sort_values("net_cents", ascending=False).head(10)[["item_name","net_dollars"]])
+
+
 def main():
     input_path = Path("data/raw/menu_mix_july.csv")
     output_path = Path("data/processed/normalized_sample.csv")
@@ -139,51 +158,23 @@ def main():
     df_raw = df_raw[REQUIRED_COLS]
 
     df = rename_to_canonical(df_raw)
-
     df = clean_text_columns(df)
-
     df = parse_qty(df)
-
     df = parse_money_simple(df)
-
     df = parse_sales_pct(df)
-
     df = drop_fully_empty_rows(df)
 
     df = tag_looks_like_header(df)
     print("Rows after pre-drop:", len(df))
     print("Flagged as headers:", int(df["looks_like_header"].sum()))
     print("Kept after drop:", int((~df["looks_like_header"]).sum()))
-
     print("Sample kept rows:")
     print(df.loc[~df["looks_like_header"], ["plu","item_name","qty","gross_cents","net_cents"]].head(10))
 
-
-    print("PLU starts with matches (sanity):")
-    m = df["plu"].astype("string").str.lower().fillna("").str.startswith(
-        ("store:", "report group:", "report date:", "report:", "category:")
-    )
-    print(int(m.sum()))
-    print(df.loc[m, ["plu","item_name","qty"]].head(8))
-
-
     df = drop_non_item_rows(df)
 
-    assert "is_numeric_qty" in df.columns, "parse_qty must run before tagging"
+    finalize_and_export(df, output_path)
     
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(output_path, index=False)
-
-    df.to_csv("debug_output.csv", index=False)
-    print("\nTop 10 by qty:")
-    print(df.sort_values("qty", ascending=False).head(20)[["item_name","qty"]])
-
-    print("\nTop 10 by net (dollars):")
-    tmp = df.assign(net_dollars=(df["net_cents"] / 100.0))
-    print(tmp.sort_values("net_cents", ascending=False).head(20)[["item_name","net_dollars"]])
 
 if __name__ == "__main__":
     main()
-
-
-
